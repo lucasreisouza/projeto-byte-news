@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadora de Sinal</title>
+    <link rel="stylesheet" href="stylenoticias.css">
+    <link rel="icon" type="image/png" href="../../Imagens/logo.png">
+</head>
+
+<body>
+    <header>
+        <a  href="pagina.html">
+            <img id="logo" src="./Imagens/logo3.png">
+        </a>
+        <div class="menu">
+            <div class="itens-menu">
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <button id="tema" onclick="toggleStyle()">🌑Modo escuro</button>
+        </div>
+    </header>
+    <main>
+        <section class="noticias">
+            <div class="noticia">
+                <h1>Como o sinal da operadora afeta o consumo de bateria do celular</h1>
+                <p>Por <a href="https://canaltech.com.br/equipe/andre-leonardo/?_gl=1*yegwg9*_gcl_au*MTg3OTA3MjYyMC4xNzYxNTA1ODA2" target="_blank">André Leonardo</a> | 16/10/2025 às 16:00 editado por <a href="pagina.html">ByteNews</a></p>
+                <img src="./Imagens/operadora.png" alt="Operadora vs Bateria">
+                <div class="paragrafo">
+                <p>A qualidade do sinal da operadora afeta diretamente a duração da bateria dos smartphones. Em áreas com cobertura fraca ou instável, o aparelho intensifica a busca por sinal, o que aumenta o consumo de energia.</p>
+                <p>Esse esforço constante para manter a conexão reduz a autonomia da bateria ao longo do dia.</p>
+                <p>A elevação do gasto energético ocorre pela necessidade de maior potência de transmissão e pela troca frequente entre redes 4G, 5G, 3G e 2G. Essas variações exigem mais do hardware e tornam o uso menos eficiente.</p>
+                <p>Escolher uma operadora com boa cobertura nos locais mais frequentados ajuda a reduzir o problema.</p>
+                <p>Também é útil usar Wi-Fi sempre que possível e ativar o modo avião em áreas sem serviço para poupar energia.</p>
+                <p><a href="https://canaltech.com.br/equipe/adriano-ponte/?_gl=1*11eok1h*_gcl_au*MTg3OTA3MjYyMC4xNzYxNTA1ODA2" target="_blank">Adriano Ponte</a> explica como o sinal fraco pode fazer o celular gastar mais bateria e como usar Wi-Fi e modo avião podem ajudar a economizar energia.</p>
+                </div>
+            </div>
+            <div id="publis">
+                <h2>Seção de comentários</h2>
+                <div id="publicacao">
+                </div>
+            </div>
+            <form id="form-comentario" class="comentarios">
+                <div class="caixa-comentario">
+                    <label><b>Coloque o seu comentário aqui</b></label>
+                    <input id="nome" type="text" placeholder="insira seu nome" required>
+                    <input id="email" type="email" placeholder="insira seu email" required>
+                    <textarea id="mensagem" type="text" placeholder="Seu comentário"></textarea>
+                    <button type="submit">Comentar</button>
+                </div>
+            </form>
+        </section>
+        <section class="contatos">
+            <div class="contato">
+                <h2>Fale Conosco pelo Whatsapp</h2>
+
+                <a class="whatsapp" href="http://wa.me/+5561998918446">
+                    <img src="./Imagens/whatsapp.png">
+                    conversar
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <b>© 2025 <span>ByteNews</span> — Conectando você ao futuro, um byte de informação por vez.
+        </b>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch</title>
+    <link rel="stylesheet" href="stylenoticias.css">
+    <link rel="icon" type="image/png" href="./Imagens/logo.png">
+
+</head>
+
+<body>
+    <header>
+        <a  href="pagina.html">
+            <img id="logo" src="./Imagens/logo3.png">
+        </a>
+        <div class="menu">
+            <div class="itens-menu">
+                <a href="#sobre">Sobre Nós</a>
+                <a href="#contato">Contato</a>
+            </div>
+            <button id="tema" onclick="toggleStyle()">🌑Modo escuro</button>
+        </div>
+    </header>
+    <main>
+        <section class="noticias">
+            <div class="noticia">
+                <h1>Apple Watch Series 11: um bom smartwatch que é igual ao anterior</h1>
+                <p>Por <a href="https://canaltech.com.br/equipe/andre-leonardo/?_gl=1*yegwg9*_gcl_au*MTg3OTA3MjYyMC4xNzYxNTA1ODA2" target="_blank">André Leonardo</a> | 19/10/2025 às 12:01 editado por <a href="pagina.html">ByteNews</a></p>
+                <img src="./Imagens/apple wath.png" alt="Apple Watch">
+                <div class="paragrafo">
+                <p>O Apple Watch Series 11 chegou ao mercado sem causar grande impacto. As melhorias em relação ao modelo anterior são discretas: bateria um pouco mais eficiente, suporte ao 5G e tela com resistência aprimorada contra impactos e riscos.</p>
+                <p>Além desses pontos, o relógio mantém o mesmo design, sensores e recursos do Apple Watch Series 10. A ausência de novidades relevantes gerou críticas sobre a falta de avanço real no produto.</p>
+                <p>Entre usuários e analistas, prevalece a percepção de que o Series 11 representa apenas uma atualização incremental.</p>
+                <p>Para quem tem versões recentes, a troca não se justifica. O lançamento parece mais uma estratégia para manter presença no mercado do que um passo de inovação.</p>
+                <p><a href="https://canaltech.com.br/equipe/gabrielrimi/?_gl=1*1cghxri*_gcl_au*MTg3OTA3MjYyMC4xNzYxNTA1ODA2" target="_blank">Gabriel Rimi</a> compara o Apple Watch Series 11 ao Series 10 e destaca poucas novidades, como suporte ao 5G e o Ceramic Shield 2.</p>
+                </div>
+            </div>
+            <div id="publis">
+                <h2>Seção de comentários</h2>
+                <div id="publicacao">
+                </div>
+            </div>
+            <form id="form-comentario" class="comentarios">
+                <div class="caixa-comentario">
+                    <label><b>Coloque o seu comentário aqui</b></label>
+                    <input id="nome" type="text" placeholder="insira seu nome" required>
+                    <input id="email" type="email" placeholder="insira seu email" required>
+                    <textarea id="mensagem" type="text" placeholder="Seu comentário"></textarea>
+                    <button type="submit">Comentar</button>
+                </div>
+            </form>
+        </section>
+        <section class="contatos">
+            <div class="contato">
+                <h2>Fale Conosco pelo Whatsapp</h2>
+
+                <a class="whatsapp" href="http://wa.me/+5561998918446">
+                    <img src="./Imagens/whatsapp.png">
+                    conversar
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <b>© 2025 <span>ByteNews</span> — Conectando você ao futuro, um byte de informação por vez.
+        </b>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
