@@ -121,13 +121,13 @@ main{
     height: auto;
     margin: auto;
     border-radius: 7px;
+    padding: 10px;
     font-family: "Inter", sans-serif;
 }
 
 #publicacao #comentario{
     display: flex;
     flex-direction: column;
-    margin: 15px;
 }
 
 #publicacao #comentario div{
@@ -169,6 +169,7 @@ main{
     width: 98%;
     border-radius: 5px;
     border: none;
+    padding: 5px;
 }
 
 .caixa-comentario textarea{
@@ -177,6 +178,15 @@ main{
     height: 100px;
     border-radius: 10px;
     border: none;
+    padding: 5px;
+}
+
+.caixa-comentario input {
+    background-color: #f3f3f3;
+    width: 98%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
 }
 
 .caixa-comentario button{
@@ -327,7 +337,7 @@ body.escuro .noticias .comentarios .caixa-comentario button{
 
   /* HEADER */
 
-  .menu .itens-menu{
+  .menu .itens-menu  {
     display: none;
   }
 
@@ -343,7 +353,6 @@ body.escuro .noticias .comentarios .caixa-comentario button{
   }
 
   header .menu {
-    flex-direction: column;
     gap: 8px;
   }
 
@@ -369,13 +378,14 @@ body.escuro .noticias .comentarios .caixa-comentario button{
 
   /* SEÇÃO DE PUBLICAÇÕES */
   #publis {
-    width: 90%;
+    width: 86%;
     padding: 10px;
     text-align: center;
   }
 
   #publicacao {
-    width: 100%;
+    width: 94%;
+    padding: 10px;
   }
 
   /* COMENTÁRIOS */
@@ -390,7 +400,7 @@ body.escuro .noticias .comentarios .caixa-comentario button{
 
   .caixa-comentario input,
   .caixa-comentario textarea {
-    width: 100%;
+    width: 98%;
   }
 
   .caixa-comentario button {

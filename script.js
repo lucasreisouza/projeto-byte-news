@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 const logo = document.querySelector('#logo');
-const tema = document.querySelector('#tema');
+const tema = document.querySelector('#tema')
 
 function toggleStyle() {
   if (body.classList.contains('claro')) {
