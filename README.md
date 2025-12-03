@@ -1,14 +1,13 @@
-##📰 ByteNews
-📖 Descrição
+# 📰 ByteNews
 
-O ByteNews é um portal de notícias desenvolvido com foco em simplicidade, agilidade e boa organização. O projeto foi criado para praticar conceitos fundamentais de Front-End, como estruturação de páginas, estilização responsiva e manipulação de elementos com JavaScript.
+## 📖 Descrição
+
+O0 ByteNews é um portal de notícias desenvolvido com foco em simplicidade, agilidade e boa organização. O projeto foi criado para praticar conceitos fundamentais de Front-End, como estruturação de páginas, estilização responsiva e manipulação de elementos com JavaScript.
 O objetivo é entregar uma experiência clara, moderna e funcional para apresentar notícias de forma dinâmica.
 
-🎥 Preview (opcional)
+## 🎥 Preview 
 
-Adicione aqui imagens ou GIFs mostrando o funcionamento da página:
-
-![Preview do Projeto](./assets/preview.png)
+![imagem](./Imagens/apple%20wath.png)
 
 ⚙️ Funcionalidades
 
