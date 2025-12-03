@@ -7,19 +7,19 @@ O objetivo é entregar uma experiência clara, moderna e funcional para apresent
 
 ## 🎥 Preview 
 
-![imagem](./Imagens/apple%20wath.png)
+![imagem](./Imagens/print.png)
 
-⚙️ Funcionalidades
+## ⚙️ Funcionalidades
 
- Layout organizado em seções
+ - Layout organizado em seções
 
- Cards de notícias estilizados
+ - Cards de notícias estilizados
 
- Navegação simples e intuitiva
+ - Navegação simples e intuitiva
 
- Design responsivo
+ - Design responsivo
 
- Futuras integrações com APIs de notícias
+ - Futuras integrações com APIs de notícias
 
 🛠️ Tecnologias Utilizadas
 
