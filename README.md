@@ -21,61 +21,62 @@ O objetivo é entregar uma experiência clara, moderna e funcional para apresent
 
  - Futuras integrações com APIs de notícias
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-HTML
+- HTML
 
-CSS
+- CSS
 
-JavaScript
+- JavaScript
 
-▶️ Como Rodar o Projeto
+- Visual Studio
+
+## ▶️ Como Rodar o Projeto
 
 Como o projeto usa apenas HTML, CSS e JavaScript, o processo é bem simples:
 
-1. Baixe ou clone este repositório
-2. Abra a pasta ByteNews
-3. Clique duas vezes no arquivo index.html para abrir no navegador
+- 1. Baixe ou clone este repositório
+- 2. Abra a pasta ByteNews
+- 3. Clique duas vezes no arquivo index.html para abrir no navegador
 
-📂 Como Clonar o Repositório
+## 📂 Como Clonar o Repositório
 
 Execute no terminal:
 
-git clone https://github.com/seu-usuario/ByteNews.git
-
+git clone https://github.com/lucasreisouza/ByteNews.git
 
 Depois:
 
 cd ByteNews
 
-🚀 Melhorias Futuras
+## 🚀 Melhorias Futuras
 
-Implementação de modo escuro
+- Implementação de modo escuro
 
-Carregamento dinâmico de notícias
+- Carregamento dinâmico de notícias
 
-Integração com API de jornalismo
+- Integração com API de jornalismo
 
-Animações no design
+- Animações no design
 
-Área administrativa para cadastrar notícias
+- Área administrativa para cadastrar notícias
 
-📚 Aprendizado
+## 📚 Aprendizado
 
 No desenvolvimento do ByteNews, foram praticados e reforçados conhecimentos em:
 
-Estruturação semântica com HTML
+- Estruturação semântica com HTML
 
-Estilização avançada com CSS
+- Estilização avançada com CSS
 
-Responsividade para diferentes telas
+- Responsividade para diferentes telas
 
-Manipulação básica de DOM com JavaScript
+- Manipulação básica de DOM com JavaScript
 
-Organização e boas práticas no Front-End
+- Organização e boas práticas no Front-End
 
-👤 Autor
+## 👤 Autor
 
-LUCAS
-GitHub: adicione aqui seu link
-LinkedIn (opcional)
+Lucas Reis Souza
+[GitGub](https://github.com/lucasreisouza)
+Turma de Tecnologia em informática para internet (vespertino) - Senac DF
