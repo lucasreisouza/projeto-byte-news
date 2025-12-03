@@ -43,7 +43,7 @@ Como o projeto usa apenas HTML, CSS e JavaScript, o processo é bem simples:
 
 Execute no terminal:
 
-git clone https://github.com/lucasreisouza/ByteNews.git
+git clone https://github.com/lucasreisouza/projeto-byte-news
 
 Depois:
 
