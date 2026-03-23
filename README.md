@@ -77,6 +77,5 @@ No desenvolvimento do ByteNews, foram praticados e reforçados conhecimentos em:
 
 ## 👤 Autor
 
-Lucas Reis Souza, Gustavo Ítalo, Luís Henrique e Arthur
-[GitGub](https://github.com/lucasreisouza)
+[Lucas Reis Souza](https://github.com/lucasreisouza), [Gustavo Ítalo](https://github.com/GustavoI7), [Luís Henrique](https://github.com/lh-luiii) e Arthur
 Turma de Tecnologia em informática para internet (vespertino) - Senac DF
