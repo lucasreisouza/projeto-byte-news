@@ -86,24 +86,48 @@ main{
   border-radius: 10px;
 }
 
-#carouselExample{
+#carouselExampleInterval{
   width: 80%;
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
-#carouselExample .carousel-inner{
+#carouselExampleInterval .carousel-inner{
   width: 90%;
   height: auto;
 }
 
-#carouselExample .carousel-inner img{
+#carouselExampleInterval .carousel-inner img{
   width: 100%;
   margin: 0 0 10px 0;
   border-radius: 10px;
   height: 295px;
 }
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-control-next-icon {
+  background-image: url('/Imagens/seta-next.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('/Imagens/seta-prev.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 60px;
+  height: 60px;
+}
+
 
 #sobre{
   display: flex;
@@ -255,12 +279,12 @@ body.escuro .contatos .contato h2{
     height: auto;
   }
 
-  #carouselExample{
-    width: 100%;
+  #carouselExampleInterval{
+   width: 100%;
   }
 
-  #carouselExample .carousel-inner{
-    width: 100%;
+  #carouselExampleInterval .carousel-inner{
+   width: 100%;
   }
 
   .caixa{
@@ -296,17 +320,17 @@ body.escuro .contatos .contato h2{
     height: auto;
   }
 
-  #carouselExample{
+  #carouselExampleInterval{
     width: 100%;
     height: auto;
   }
 
-  #carouselExample .carousel-inner{
+  #carouselExampleInterval .carousel-inner{
     width: 100%;
     height: auto;
   }
 
- #carouselExample .carousel-inner img {
+ #carouselExampleInterval .carousel-inner img {
     height: 450px;
   }
 

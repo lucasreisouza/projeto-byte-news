@@ -31,10 +31,17 @@
         <section class="noticias">
             <div class="caixao">
                 <div class="cartao noticiaprin">
-                    <a href="./noticias/meta-corta-600-cargos.html" target="_blank"> <img src="./imagens/meta-corta-600-cargos-link.png"></a>
+                    <a href="./noticias/meta-corta-600-cargos.html" target="_blank"> <img
+                            src="./imagens/meta-corta-600-cargos-link.png"></a>
                 </div>
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="caroussel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner" data-bs-interval="10000">
                         <div class="carousel-item active">
                             <div class="cartao noticia2">
                                 <a href="./noticias/iPhone-17.html" target="_blank">
@@ -47,10 +54,11 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="cartao noticia4">
                                 <a href="./noticias/como-o-sinal.html" target="_blank">
-                                    <img src="./imagens/como-o-sinal.png" class="d-block" alt="Operadora contra a bateria">
+                                    <img src="./imagens/como-o-sinal.png" class="d-block"
+                                        alt="Operadora contra a bateria">
                                 </a>
                             </div>
                             <div class="cartao noticia5">
@@ -59,12 +67,12 @@
                                 </a>
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
