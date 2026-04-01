@@ -111,13 +111,13 @@ main{
 }
 
 .carousel-control-next-icon {
-  background-image: url('/imagens/seta-next.png');
+  background-image: url('../imagens/seta-next.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .carousel-control-prev-icon {
-  background-image: url('/imagens/seta-prev.png');
+  background-image: url('../imagens/seta-prev.png');
   background-size: contain;
   background-repeat: no-repeat;
 }
