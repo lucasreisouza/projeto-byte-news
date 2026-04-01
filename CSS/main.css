@@ -86,19 +86,19 @@ main{
   border-radius: 10px;
 }
 
-#carouselExampleInterval{
+#carouselDesktop{
   width: 80%;
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
-#carouselExampleInterval .carousel-inner{
+#carouselDesktop .carousel-inner{
   width: 90%;
   height: auto;
 }
 
-#carouselExampleInterval .carousel-inner img{
+#carouselDesktop .carousel-inner img{
   width: 100%;
   margin: 0 0 10px 0;
   border-radius: 10px;
@@ -128,6 +128,9 @@ main{
   height: 60px;
 }
 
+#carouselMobile{
+  display: none;
+}
 
 #sobre{
   display: flex;
@@ -272,19 +275,27 @@ body.escuro .contatos .contato h2{
     gap: 10px;
   }
   .caixao .noticiaprin {
-    width: 100%;
-  }
-  .caixao .noticiaprin img{
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
-  #carouselExampleInterval{
+  #carouselMobile{
+   width: 100%;
+   display: block;
+  }
+
+  #carouselMobile .carousel-inner{
    width: 100%;
   }
 
-  #carouselExampleInterval .carousel-inner{
-   width: 100%;
+  #carouselMobile .carousel-inner img{
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  height: 295px;
+  }
+
+  #carouselDesktop{
+    display: none;
   }
 
   .caixa{
@@ -313,25 +324,29 @@ body.escuro .contatos .contato h2{
     gap: 10px;
   }
   .caixao .noticiaprin {
-    width: 100%;
+    display: none;
   }
-  .caixao .noticiaprin img{
+
+  #carouselMobile{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #carouselMobile .carousel-inner{
     width: 100%;
     height: auto;
   }
-
-  #carouselExampleInterval{
-    width: 100%;
-    height: auto;
+ 
+  #carouselMobile .carousel-inner img{
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  height: 295px;
   }
 
-  #carouselExampleInterval .carousel-inner{
-    width: 100%;
-    height: auto;
-  }
-
- #carouselExampleInterval .carousel-inner img {
-    height: 450px;
+ #carouselDesktop{
+    display: none;
   }
 
   .caixa{
