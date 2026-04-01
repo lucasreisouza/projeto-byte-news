@@ -6,13 +6,13 @@ function toggleStyle() {
   if (body.classList.contains('claro')) {
     body.classList.remove('claro');
     body.classList.add('escuro');
-    logo.setAttribute('src', '../imagens/logo-padrao.png');
-    tema.textContent = '☀️Modo claro';
+    logo.setAttribute('src', '../imagens/logo-escuro.png');
+    tema.textContent = '☀️';
   } else {
     body.classList.remove('escuro');
     body.classList.add('claro');
-    logo.setAttribute('src', './Imagens/logo-escuro.png');
-    tema.textContent = '🌑Modo escuro';
+    logo.setAttribute('src', './Imagens/logo-padrao.png');
+    tema.textContent = '🌑';
   }
 }
 

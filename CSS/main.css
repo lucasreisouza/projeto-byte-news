@@ -200,6 +200,13 @@ main{
   color: #05f29b;
 }
 
+#tema {
+  font-size: 30px;
+  border: none;
+  background: none;
+}
+
+
 footer {
   background-color: #049DD9;
   color: #012340;
