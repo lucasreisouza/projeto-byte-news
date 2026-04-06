@@ -45,13 +45,19 @@ header .menu button{
   background-color: #012340;
   border-radius: 5px;
   border: none;
-  font-family: "Inter", sans-serif;
+
   padding: 5px;
+
+}
+
+header .menu button a{
   color: #05f2f2;
 }
 
 body{
   background-color: #f3f3f3;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
 }
 
 main{
@@ -231,7 +237,10 @@ body.escuro header .menu a {
 }
 
 body.escuro header .menu button{
-  background-color: #05F2F2;
+  background-color: #05F2F2
+}
+
+body.escuro header .menu button a{
   color: #012340;
 }
 
