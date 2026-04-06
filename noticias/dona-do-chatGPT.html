@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>Dona do ChatGPT</title>
     <link rel="stylesheet" href="../CSS/noticia.css">
     <link rel="icon" type="image/png" href="../imagens/icone-do-site.png">
 </head>
 
-<body>
+<body class="claro">
     <header>
-        <a  href="../index.html">
+        <a href="../index.html">
             <img id="logo" src="../imagens/logo-padrao.png">
         </a>
         <div class="menu">
-           <div class="itens-menu">
+            <div class="itens-menu">
                 <a href="#sobre">Sobre Nós</a>
                 <a href="#contato">Contato</a>
                 <button> <a href="./ContaByteNews/login.html">em conta ByteNews</a> </button>
@@ -26,13 +31,25 @@
         <section class="noticias">
             <div class="noticia">
                 <h1>Dona do ChatGPT lança seu próprio navegador para competir com o Google Chrome</h1>
-                <p>Por <a href="https://g1.globo.com/autores/redacao-g1/" target="_blank">Redação g1</a> 21/10/2025 14h39 editado por <a href="../index.html">ByteNews</a> </p>
+                <p>Por <a href="https://g1.globo.com/autores/redacao-g1/" target="_blank">Redação g1</a> 21/10/2025
+                    14h39 editado por <a href="../index.html">ByteNews</a> </p>
                 <img src="../imagens/dona-do-chatGPT.png">
-                <p>A<a href="https://g1.globo.com/tudo-sobre/openai/" target="_blank"> OpenAI</a>, dona do ChatGPT, anunciou nesta terça-feira (21) o lançamento de seu próprio navegador de internet com inteligência artificial.</p>
-                <p>Chamado Atlas, o software é o mais novo concorrente do Google Chrome, que nos últimos meses também ganhou recursos de IA.</p>
-                <p>A empresa informou que o Atlas será disponibilizado hoje para notebooks da Apple e, "em breve", chegará ao Windows, ao iOS (iPhone) e ao Android.</p>
-                <p>"Com o Atlas, o ChatGPT pode acompanhá-lo em qualquer lugar da internet, ajudando-o na janela exatamente onde você está, entendendo o que você está tentando fazer e concluindo tarefas para você, tudo sem copiar e colar ou sair da página", disse a OpenAI.</p>
-                <p>A empresa informou ainda que, para assinantes do ChatGPT, o navegador já chega com o modo agente integrado — <a href="https://g1.globo.com/inovacao/noticia/2025/08/17/agente-do-chatgpt-reserva-restaurante-faz-compra-mas-erra-ao-insistir-demais-g1-testou.ghtml" target="_blank">recurso que permite ao robô executar tarefas de forma autônoma</a>. "O modo Agente no Atlas está disponível hoje em versão prévia para usuários Plus, Pro e Business", disse a OpenAI.</p>
+                <p>A<a href="https://g1.globo.com/tudo-sobre/openai/" target="_blank"> OpenAI</a>, dona do ChatGPT,
+                    anunciou nesta terça-feira (21) o lançamento de seu próprio navegador de internet com inteligência
+                    artificial.</p>
+                <p>Chamado Atlas, o software é o mais novo concorrente do Google Chrome, que nos últimos meses também
+                    ganhou recursos de IA.</p>
+                <p>A empresa informou que o Atlas será disponibilizado hoje para notebooks da Apple e, "em breve",
+                    chegará ao Windows, ao iOS (iPhone) e ao Android.</p>
+                <p>"Com o Atlas, o ChatGPT pode acompanhá-lo em qualquer lugar da internet, ajudando-o na janela
+                    exatamente onde você está, entendendo o que você está tentando fazer e concluindo tarefas para você,
+                    tudo sem copiar e colar ou sair da página", disse a OpenAI.</p>
+                <p>A empresa informou ainda que, para assinantes do ChatGPT, o navegador já chega com o modo agente
+                    integrado — <a
+                        href="https://g1.globo.com/inovacao/noticia/2025/08/17/agente-do-chatgpt-reserva-restaurante-faz-compra-mas-erra-ao-insistir-demais-g1-testou.ghtml"
+                        target="_blank">recurso que permite ao robô executar tarefas de forma autônoma</a>. "O modo
+                    Agente no Atlas está disponível hoje em versão prévia para usuários Plus, Pro e Business", disse a
+                    OpenAI.</p>
             </div>
             <div id="publis">
                 <h2>Seção de comentários</h2>
@@ -60,13 +77,13 @@
             </div>
         </section>
         <div id="alterarTema" class="botao-flutuante">
-            <button id="tema" onclick="toggleStyle()">🌑</button>
+            <button id="tema" onclick="toggleStyle()"><img src="../imagens/tema-icon.png"></button>
         </div>
     </main>
     <footer id="contato" class="rodape">
         &copy;2025 byteNews - Conectando você ao futuro, um byte de informação por vez.
     </footer>
-    <script src="../JS/main.js"></script>
+    <script src="../JS/noticias.js"></script>
 </body>
 
 </html>

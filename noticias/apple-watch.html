@@ -4,13 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>Apple Watch</title>
     <link rel="stylesheet" href="../CSS/noticia.css">
     <link rel="icon" type="image/png" href="../imagens/icone-do-site.png">
 
 </head>
 
-<body>
+<body class="claro">
     <header>
         <a  href="../index.html">
             <img id="logo" src="../imagens/logo-padrao.png">
@@ -63,14 +68,14 @@
             </div>
         </section>
         <div id="alterarTema" class="botao-flutuante">
-            <button id="tema" onclick="toggleStyle()">🌑</button>
+            <button id="tema" onclick="toggleStyle()"><img src="../imagens/tema-icon.png"></button>
         </div>
     </main>
     <footer id="contato">
         <b>© 2025 <span>ByteNews</span> — Conectando você ao futuro, um byte de informação por vez.
         </b>
     </footer>
-    <script src="../JS/main.js"></script>
+    <script src="../JS/noticias.js"></script>
 </body>
 
 </html>
