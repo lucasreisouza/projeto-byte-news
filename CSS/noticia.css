@@ -244,6 +244,17 @@ a {
   color: #05f29b;
 }
 
+#tema {
+  font-size: 30px;
+  border: none;
+  background: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 24px;
+  border: 0;
+}
+
 footer {
   background-color: #049DD9;
   color: #012340;
