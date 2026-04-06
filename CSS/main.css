@@ -16,6 +16,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 header {
   background-color: #049DD9;
   padding: 15px 30px;
@@ -45,13 +46,12 @@ header .menu button{
   background-color: #012340;
   border-radius: 5px;
   border: none;
-
   padding: 5px;
-
 }
 
 header .menu button a{
   color: #05f2f2;
+    font-family: "Inter", sans-serif;
 }
 
 body{
