@@ -22,7 +22,7 @@
 
 header {
   background-color: #049DD9;
-  padding: 15px 30px;
+  padding: 15px 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,7 +30,7 @@ header {
 } 
 
 header img {
-  width: 100px;
+  width: 200px;
 }
 
 header .menu{
