@@ -19,7 +19,7 @@
 
 header {
   background-color: #049DD9;
-  padding: 15px 90px;
+  padding: 15px 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,7 +32,6 @@ header img {
 
 header .menu{
   display: flex;
-  gap: 10px;
   align-items: center;
 }
 
@@ -64,6 +63,7 @@ main{
   display: flex;
   gap: 20px;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .noticias{
@@ -206,6 +206,10 @@ main{
   color: #05f29b;
 }
 
+#alterarTema{
+  z-index: 9;
+}
+
 #tema {
   width: 30px;
   height: 30px;
@@ -288,7 +292,11 @@ body.escuro button#tema .theme-icon {
   filter: invert(1);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:425px) {
+
+  header{
+    justify-content: center;
+  }
 
   .menu .itens-menu{
     display: none;
@@ -322,7 +330,7 @@ body.escuro button#tema .theme-icon {
   width: 100%;
   margin: 0 0 10px 0;
   border-radius: 10px;
-  height: 295px;
+  height: auto;
   }
 
   #carouselDesktop{
@@ -341,8 +349,14 @@ body.escuro button#tema .theme-icon {
   }
 }
 
-@media screen and (min-width:769px)and (max-width:1200px) {
-  
+@media screen and (min-width:426px)and (max-width:768px) {
+
+  .menu .itens-menu{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
   .noticias{
     padding: 20px 20px 0 20px;
   }
@@ -359,26 +373,110 @@ body.escuro button#tema .theme-icon {
   }
 
   #carouselMobile{
-    width: 100%;
-    height: auto;
-    display: block;
+   width: 100%;
+   display: block;
   }
 
   #carouselMobile .carousel-inner{
-    width: 100%;
-    height: auto;
+   width: 100%;
   }
- 
+
   #carouselMobile .carousel-inner img{
   width: 100%;
   margin: 0 0 10px 0;
   border-radius: 10px;
-  height: 295px;
+  height: auto;
   }
 
- #carouselDesktop{
+  #carouselDesktop{
     display: none;
   }
+
+  .caixa{
+    width: 90%;
+    gap:0;
+    height: auto;
+  }
+
+  .contato{
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+  
+  .noticias{
+  display: flex;
+  padding: 70px 70px 0 70px;
+  justify-content: center;
+}
+
+.caixao{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 20px 0 20px 30px;
+  box-shadow: 1px 1px 9px #012340;
+}
+
+.noticias .noticiaprin{
+  width: 60%;
+}
+
+.noticias .noticiaprin img{
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+#carouselDesktop{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#carouselDesktop .carousel-inner{
+  width: 90%;
+  height: auto;
+}
+
+#carouselDesktop .carousel-inner img{
+  width: 100%;
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+  height: 295px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../imagens/seta-next.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../imagens/seta-prev.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 60px;
+  height: 60px;
+}
+
+#carouselMobile{
+  display: none;
+}
 
   .caixa{
     width: 90%;
